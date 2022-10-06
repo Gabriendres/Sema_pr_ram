@@ -12,6 +12,8 @@ const int red=PIN0
 const int yellow=PIN1
 const int green=PIN2
 
+// cambio en master
+
 void setup()
 {
 	pinMode(red, OUTPUT);
