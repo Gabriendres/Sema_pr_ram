@@ -22,3 +22,16 @@ void setup()
 	digitalwrite(Yellow, OUTPUT);
 	digitalwrite(green, OUTPUT);
 }
+
+void loop()
+{
+	pinMode(red, LOW);
+	pinMode(green, HIGH);
+	delay(SECONDS(10));
+	pinMode(green, LOW);
+	pinMode(yellow, HIGH);
+	delay(SECONDS(2));
+	pinMode(yellow, LOW);
+	pinMode(red, HIGH);
+	delay(SECONDS(10));
+}
