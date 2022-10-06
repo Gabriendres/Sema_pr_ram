@@ -27,6 +27,8 @@ void setup()
 
 void loop()
 {
+	if(digitalRead(button){
+	}
 	pinMode(red, LOW);
 	pinMode(green, HIGH);
 	delay(SECONDS(10));
