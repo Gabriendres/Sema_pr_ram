@@ -12,6 +12,7 @@ const int red=PIN0
 const int yellow=PIN1
 const int green=PIN2
 const int button=PIN5
+bool isBlink =true;
 
 void setup()
 {
@@ -27,8 +28,9 @@ void setup()
 
 void loop()
 {
-	if(digitalRead(button){
-	}
+	if(!digitalRead(button){
+		isBlink= !isBlink;
+	} 
 	pinMode(red, LOW);
 	pinMode(green, HIGH);
 	delay(SECONDS(10));
