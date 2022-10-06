@@ -11,12 +11,14 @@
 const int red=PIN0
 const int yellow=PIN1
 const int green=PIN2
+const int button=PIN5
 
 void setup()
 {
 	pinMode(red, OUTPUT);
 	pinMode(Yellow, OUTPUT);
 	pinMode(green, OUTPUT);
+	pinmode(button, INPUT PULLUP);
 	
 	digitalwrite(red, OUTPUT);
 	digitalwrite(Yellow, OUTPUT);
